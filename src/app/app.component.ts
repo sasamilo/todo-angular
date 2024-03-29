@@ -9,8 +9,9 @@ import { ItemComponent } from "./item/item.component";
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports: [CommonModule],
+  imports: [CommonModule, ItemComponent],
 })
+
 export class AppComponent {
   componentTitle = "My To Do List";
 
